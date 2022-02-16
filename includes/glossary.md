@@ -39,3 +39,6 @@
 *[dataset definition]: specifies the details of data — for example, patients — that you want to include in your study. Used by Data Builder.
 *[ehrQL]: electronic health record query language. The language used by the Data Builder tool to extract cohorts
 *[OpenSAFELY Contracts]: provide a specification to make clear the data provided by different data backends, and to provide guidelines and tooling for data providers wishing to standardise their data for researchers
+*[backend]: one of several clinical databases that researchers might query via OpenSAFELY.
+*[Common Contracts]: an OpenSAFELY Contract that all data backends must satisfy.
+*[Custom Contracts]: an OpenSAFELY Contract that is optional; it may be that only one data backend satisfies this Contract.
